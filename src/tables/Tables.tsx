@@ -12,12 +12,12 @@ const StyledTableCell = styled(TableCell)(({ theme }) => ({
     [`&.${tableCellClasses.head}`]: {
         backgroundColor: theme.palette.common.black,
         color: theme.palette.common.white,
-        fontSize: 14,
+        fontSize: 12,
         fontWeight: 'bold',
     },
     [`&.${tableCellClasses.body}`]: {
         color: theme.palette.common.white,
-        fontSize: 12,
+        fontSize: 10,
         fontWeight: 'bold',
     },
     '&.idColumn': {
@@ -249,7 +249,7 @@ export const Tables = () => {
                                             whiteSpace: 'pre-wrap',
                                             wordWrap: 'break-word',
                                             resize: 'vertical',
-                                            fontSize: '14px',
+                                            fontSize: '13px',
                                             fontFamily: index === 0 ? 'Arial' : 'Arial', // Change the font family based on the index
                                             fontWeight: index === 0 ? 'bold' : 'normal', // Make the font bold for the first row, normal for others
                                             display: 'flex', // Use flex display
@@ -269,7 +269,7 @@ export const Tables = () => {
                                             whiteSpace: 'pre-wrap',
                                             wordWrap: 'break-word',
                                             resize: 'vertical',
-                                            fontSize: '14px',
+                                            fontSize: '13px',
                                             fontFamily: index === 0 ? 'Arial' : 'Arial', // Change the font family based on the index
                                             fontWeight: index === 0 ? 'bold' : 'normal', // Make the font bold for the first row, normal for others
                                             textAlign: index === 0 ? 'center' : 'left', // Horizontally center the text for the first row, left align for others
@@ -286,7 +286,7 @@ export const Tables = () => {
                                             whiteSpace: 'pre-wrap',
                                             wordWrap: 'break-word',
                                             resize: 'vertical',
-                                            fontSize: '14px',
+                                            fontSize: '13px',
                                             fontFamily: index === 0 ? 'Arial' : 'Arial', // Change the font family based on the index
                                             fontWeight: index === 0 ? 'bold' : 'normal', // Make the font bold for the first row, normal for others
                                             textAlign: index === 0 ? 'center' : 'left', // Horizontally center the text for the first row, left align for others
@@ -299,30 +299,30 @@ export const Tables = () => {
                 </Table>
             </TableContainer>
 
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <div style={{ display: 'flex', justifyContent: 'left', alignItems: 'left' }}>
             <div style={{ marginLeft: '1rem', marginRight: '1rem' }}>
                     <img
                         src="https://media.tenor.com/RM-6VCn25fIAAAAC/tea-theboythatwas.gif"
                         alt="GIF"
-                        style={{ height: '10rem' }}
+                        style={{ height: '8rem' }}
                     />
                 </div>
-                <p style={{ fontSize: '1.5rem', marginRight: '1rem', marginLeft: '1rem', background: 'yellow', color: 'black', fontWeight: 'bold', borderRadius: '5%', justifyContent: 'center', alignItems: 'center', display: 'flex' }}>
+                <p style={{ fontSize: '15px', marginRight: '1rem', marginLeft: '1rem', background: 'yellow', color: 'black', fontWeight: 'bold', borderRadius: '5%', justifyContent: 'center', alignItems: 'center', display: 'flex' }}>
                     <div
                         style={{
                             fontWeight: 'bold',
                             fontStyle: 'gerade',
-                            fontSize: '30px',
+                            fontSize: '20px',
                             color: 'white',
                             textShadow: '2px 2px 10px blue',
                             padding: '1px 10px',
                             width: '95px',
-                            height: '50px',
+                            height: '40px',
                         }}
                     >
                         Note:
                     </div>
-                    Zum Editieren einfach in eine Zelle klicken & Text eintragen.
+                    Zum Editieren einfach in eine Zelle klicken & Text eintragen.<br/>
                     Diese Website ist ein Geschenk an die Familie Notfall.
                 </p>
 
@@ -364,7 +364,7 @@ export const Tables = () => {
                                             whiteSpace: 'pre-wrap',
                                             wordWrap: 'break-word',
                                             resize: 'vertical',
-                                            fontSize: '14px',
+                                            fontSize: '13px',
                                             fontFamily: index === 0 ? 'Arial' : 'Arial', // Change the font family based on the index
                                             fontWeight: index === 0 ? 'bold' : 'normal', // Make the font bold for the first row, normal for others
                                             textAlign: index === 0 ? 'center' : 'left', // Horizontally center the text for the first row, left align for others
@@ -381,7 +381,7 @@ export const Tables = () => {
                                             whiteSpace: 'pre-wrap',
                                             wordWrap: 'break-word',
                                             resize: 'vertical',
-                                            fontSize: '14px',
+                                            fontSize: '13px',
                                             fontFamily: index === 0 ? 'Arial' : 'Arial', // Change the font family based on the index
                                             fontWeight: index === 0 ? 'bold' : 'normal', // Make the font bold for the first row, normal for others
                                             textAlign: index === 0 ? 'center' : 'left', // Horizontally center the text for the first row, left align for others
@@ -398,7 +398,7 @@ export const Tables = () => {
                                             whiteSpace: 'pre-wrap',
                                             wordWrap: 'break-word',
                                             resize: 'vertical',
-                                            fontSize: '14px',
+                                            fontSize: '13px',
                                             fontFamily: index === 0 ? 'Arial' : 'Arial', // Change the font family based on the index
                                             fontWeight: index === 0 ? 'bold' : 'normal', // Make the font bold for the first row, normal for others
                                             textAlign: index === 0 ? 'center' : 'left', // Horizontally center the text for the first row, left align for others

@@ -10,7 +10,7 @@ import { Tables } from './tables/Tables.tsx'
 
 const sxApp = {
   width: '100%',
-  height: `100%`,
+  height: '100%',
   display: 'grid',
   gridTemplateRows: `auto 1fr`,
   justifyItems: 'center',
@@ -19,7 +19,7 @@ const sxApp = {
 const sxToolbar = {
   display: 'flex',
   justifyContent: 'space-between',
-  gap: 1,
+  gap: 0,
   fontSize: '22px',
   color: 'white',
   pt: 1,
@@ -28,6 +28,7 @@ const sxToolbar = {
 
 const sxMain = {
   width: '100%',
+  midWidth: "5%",
   height: '100%',
   display: 'grid',
   gridTemplateRows: 'auto 1fr auto',
@@ -51,16 +52,17 @@ function App() {
         <Box sx={sxApp}>
           <AppBar position={'static'}>
             <Toolbar sx={sxToolbar}>
-              <img src="https://i.pinimg.com/originals/e3/75/52/e375527f77c59ff25760ffd73f9fd2e1.gif" alt="GIF" style={{ height: '2rem', marginRight: '0rem' }} />
-              <div style={{ display: 'flex', gap: '0px', flexWrap: 'wrap', justifyContent: 'center' }}>
+              
+              <div style={{ display: 'flex'}}>
 
                 <div
                   style={{
                     fontWeight: 'bold',
                     fontStyle: 'impact',
+                    fontSize: '15px',
                     color: 'white',
                     //backgroundColor: '', // Background color
-                    padding: '5px 2px', // Adjust the padding to increase/decrease space between words
+                    padding: '5px 3px', // Adjust the padding to increase/decrease space between words
                     //boxShadow: '2px 2px 5px rgba(0, 0, 0, 0.3)', // Box shadow effect
                   }}
                 >
@@ -71,10 +73,10 @@ function App() {
                   style={{
                     fontWeight: 'bold',
                     fontStyle: 'gerade',
-                    fontSize: '30px',
+                    fontSize: '20px',
                     color: 'yellow',
                     //backgroundColor: 'blue', // Background color
-                    padding: '0px 4px 1px', // Adjust the padding to increase/decrease space between words
+                    padding: '1px 4px 1px', // Adjust the padding to increase/decrease space between words
                     //boxShadow: '2px 2px 20px white', // Box shadow effect
                     textShadow: '3px 3px 20px black',
                     width: '20px', // Adjust the width as needed
@@ -88,9 +90,10 @@ function App() {
                   style={{
                     fontWeight: 'bold',
                     fontStyle: 'gerade',
+                    fontSize: '15px',
                     color: 'white',
                     //backgroundColor: '', // Background color
-                    padding: '5px 6px', // Adjust the padding to increase/decrease space between words
+                    padding: '5px 3px', // Adjust the padding to increase/decrease space between words
                     //boxShadow: '2px 2px 5px rgba(0, 0, 0, 0.3)', // Box shadow effect
                   }}
                 >
@@ -101,6 +104,7 @@ function App() {
                   style={{
                     fontWeight: 'bold',
                     fontStyle: 'gerade',
+                    fontSize: '15px',
                     color: 'white',
                     //backgroundColor: '', // Background color
                     padding: '5px 0px', // Adjust the padding to increase/decrease space between words
@@ -114,6 +118,7 @@ function App() {
                   style={{
                     fontWeight: 'bold',
                     fontStyle: 'impact',
+                    fontSize: '15px',
                     color: 'white',
                     //backgroundColor: '', // Background color
                     padding: '5px 5px', // Adjust the padding to increase/decrease space between words
@@ -139,4 +144,6 @@ function App() {
 }
 
 export default App
+
+
 
