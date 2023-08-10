@@ -300,30 +300,30 @@ export const Tables = () => {
             </TableContainer>
 
             <div style={{ display: 'flex', justifyContent: 'left', alignItems: 'left' }}>
-            <div style={{ marginLeft: '1rem', marginRight: '1rem' }}>
+            <div style={{ marginLeft: '3rem', marginRight: '1rem' }}>
                     <img
                         src="https://media.tenor.com/RM-6VCn25fIAAAAC/tea-theboythatwas.gif"
                         alt="GIF"
                         style={{ height: '8rem' }}
                     />
                 </div>
-                <p style={{ fontSize: '15px', marginRight: '1rem', marginLeft: '1rem', background: 'yellow', color: 'black', fontWeight: 'bold', borderRadius: '5%', justifyContent: 'center', alignItems: 'center', display: 'flex' }}>
+                <p style={{ fontSize: '15px', marginRight: '1rem', marginLeft: '1rem', backgroundColor: 'white', color: 'black', fontWeight: 'bold', borderRadius: '45%', justifyContent: 'center', alignItems: 'center', display: 'flex' }}>
                     <div
                         style={{
                             fontWeight: 'bold',
                             fontStyle: 'gerade',
                             fontSize: '20px',
-                            color: 'white',
-                            textShadow: '2px 2px 10px blue',
-                            padding: '1px 10px',
+                            color: 'blue',
+                            textShadow: '2px 2px 15px red',
+                            padding: '0px 15px',
                             width: '95px',
-                            height: '40px',
+                            height: '50px',
                         }}
                     >
                         Note:
                     </div>
                     Zum Editieren einfach in eine Zelle klicken & Text eintragen.<br/>
-                    Diese Website ist ein Geschenk an die Familie Notfall.
+                    Diese Website ist ein Geschenk an die Familie Notfall ♥️.
                 </p>
 
 
