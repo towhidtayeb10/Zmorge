@@ -307,7 +307,7 @@ export const Tables = () => {
                         style={{ height: '8rem' }}
                     />
                 </div>
-                <p style={{ fontSize: '15px', marginRight: '1rem', marginLeft: '0rem', backgroundColor: 'red', color: 'black', fontWeight: 'bold', borderRadius: '1%', justifyContent: 'center', alignItems: 'center', display: 'flex' }}>
+                <p style={{ fontSize: '14px', marginRight: '1rem', marginLeft: '0rem', backgroundColor: 'yellow', color: 'black', fontWeight: 'bold', borderRadius: '1%', justifyContent: 'center', alignItems: 'center', display: 'flex' }}>
                     <div
                         style={{
                             fontWeight: 'bold',
@@ -315,9 +315,9 @@ export const Tables = () => {
                             fontSize: '20px',
                             color: 'blue',
                             textShadow: '2px 2px 15px red',
-                            padding: '0px 15px',
+                            padding: '0px 10px',
                             width: '95px',
-                            height: '50px',
+                            height: '90px',
                         }}
                     >
                         Note:
