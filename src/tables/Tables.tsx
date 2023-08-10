@@ -174,7 +174,7 @@ export const Tables = () => {
             if (currentDate.getDay() === 2 && currentDate.getHours() === 11 && currentDate.getMinutes() === 0) {
                 setRows1((prevRows) =>
                     prevRows.map((row) => {
-                            return { ...row, samstag: '', sonntag: '' };
+                        return { ...row, samstag: '', sonntag: '' };
                     })
                 );
             }
@@ -300,60 +300,36 @@ export const Tables = () => {
             </TableContainer>
 
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                <p style={{ fontSize: '1.5rem', marginLeft: '2rem', background: 'yellow', color: 'black', fontWeight: 'bold', borderRadius: '5%'}}>
+            <div style={{ marginLeft: '1rem', marginRight: '1rem' }}>
+                    <img
+                        src="https://media.tenor.com/RM-6VCn25fIAAAAC/tea-theboythatwas.gif"
+                        alt="GIF"
+                        style={{ height: '10rem' }}
+                    />
+                </div>
+                <p style={{ fontSize: '1.5rem', marginRight: '1rem', marginLeft: '1rem', background: 'yellow', color: 'black', fontWeight: 'bold', borderRadius: '5%', justifyContent: 'center', alignItems: 'center', display: 'flex' }}>
                     <div
                         style={{
                             fontWeight: 'bold',
                             fontStyle: 'gerade',
                             fontSize: '30px',
                             color: 'white',
-                            //backgroundColor: 'blue', // Background color
-                            //borderRadius: '50%',
                             textShadow: '2px 2px 10px blue',
-                            padding: '1px 10px', // Adjust the padding to increase/decrease space between words
-                            //boxShadow: '2px 2px 20px yellow', // Box shadow effect
-                            width: '95px', // Adjust the width as needed
-                            height: '45px', // Adjust the height as needed
+                            padding: '1px 10px',
+                            width: '95px',
+                            height: '50px',
                         }}
                     >
                         Note:
                     </div>
-                    Zum Editieren einfach in eine Zelle klicken & Text eintragen.<br />
-                    Diese Website ist ein Geschenk an die Familie Notfall
+                    Zum Editieren einfach in eine Zelle klicken & Text eintragen.
+                    Diese Website ist ein Geschenk an die Familie Notfall.
                 </p>
 
-                <div style={{ marginLeft: 'auto', marginRight: 'auto' }}>
-                    <img
-                        src="https://media.tenor.com/RM-6VCn25fIAAAAC/tea-theboythatwas.gif"
-                        alt="GIF"
-                        style={{ height: '10rem', marginRight: '1rem', marginLeft: '1rem' }}
-                    />
-                </div>
-                <div>
-                    <p style={{ fontSize: '1.5rem', marginLeft: '0rem', marginRight: '2rem', background: 'yellow', color: 'black', fontWeight: 'bold', borderRadius: '5%'}}>
-                        <div
-                            style={{
-                                display: 'flex',
-                                justifyContent: 'center', // Center horizontally
-                                alignItems: 'center', // Center vertically
-                                fontWeight: 'bold',
-                                fontStyle: 'gerade',
-                                fontSize: '30px',
-                                color: 'white',
-                                textShadow: '2px 2px 10px blue',
-                                //backgroundColor: 'blue', // Background color
-                                padding: '1px 10px', // Adjust the padding to increase/decrease space between words
-                                //boxShadow: '2px 2px 20px white', // Box shadow effect
-                                width: '95px', // Adjust the width as needed
-                                height: '45px', // Adjust the height as needed
-                            }}
-                        >
-                            Ziel:
-                        </div>
-                        Gemeinsam frühstücken, Erinnerungen schaffen und Freundschaften<br /> knüpfen und pflegen!
-                    </p>
-                </div>
+
             </div>
+
+
 
             <TableContainer component={Paper} sx={sxContainer}>
                 <Table sx={sxTable} aria-label="simple table">

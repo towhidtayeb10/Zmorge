@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { ThemeType } from './theme/model.ts'
 import { ThemeSwitch } from './theme/ThemeSwitch.tsx'
-import { Notes } from './notes/Notes.tsx'
+// import { Notes } from './notes/Notes.tsx'
 import { Box } from '@mui/system'
 import { createTheme, ThemeProvider } from '@mui/material/styles'
 import { AppBar, CssBaseline, Toolbar } from '@mui/material'
@@ -52,7 +52,6 @@ function App() {
           <AppBar position={'static'}>
             <Toolbar sx={sxToolbar}>
               <img src="https://i.pinimg.com/originals/e3/75/52/e375527f77c59ff25760ffd73f9fd2e1.gif" alt="GIF" style={{ height: '2rem', marginRight: '0rem' }} />
-              {/* <BakeryDiningOutlinedIcon style={{ fontSize: '3rem', color: 'yellow' }} /> */}
               <div style={{ display: 'flex', gap: '0px', flexWrap: 'wrap', justifyContent: 'center' }}>
 
                 <div
@@ -131,21 +130,7 @@ function App() {
 
           <div>
             <Tables />
-          </div>
-
-          <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
-            <div>
-              <img
-                src="https://media1.giphy.com/media/R59Hhh3cnfuffSSAxP/giphy.gif?cid=ecf05e475l4ap2st8ge03w4odug4l0u9kzk2wk736guvcrz5&ep=v1_gifs_search&rid=giphy.gif&ct=g"
-                alt="GIF"
-                style={{ height: '10rem', marginLeft: '1.5rem' }}
-              />
-            </div>
-            <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
-              <Notes />
-            </div>
-          </div>
-
+          </div>     
         </Box>
       </ThemeProvider>
     </Box>
