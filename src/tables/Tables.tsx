@@ -103,7 +103,10 @@ export const Tables = () => {
         return [data, setData] as const;
     };
 
-    const [rows1, setRows1] = useLocalStorageStateTable1('tableRows1', createInitialRowsTable1(11, true));
+    //const [rows1, setRows1] = useLocalStorageStateTable1('tableRows1', createInitialRowsTable1(11, true));
+    const storedRows1 = localStorage.getItem('tableRows1');
+    const initialRows1 = storedRows1 ? JSON.parse(storedRows1) : createInitialRowsTable1(11, true);
+    const [rows1, setRows1] = useLocalStorageStateTable1('tableRows1', initialRows1);
 
     const handleInputChange1 = (
         e: React.ChangeEvent<HTMLTextAreaElement>,
@@ -111,7 +114,10 @@ export const Tables = () => {
         column: keyof RowData1
     ) => {
         const { value } = e.target;
-        setRows1((prevRows) => prevRows.map((row) => (row.id === id ? { ...row, [column]: value } : row)));
+        const updatedRows = rows1.map((row) => (row.id === id ? { ...row, [column]: value } : row));
+        setRows1(updatedRows);
+        localStorage.setItem('tableRows1', JSON.stringify(updatedRows));
+        //setRows1((prevRows) => prevRows.map((row) => (row.id === id ? { ...row, [column]: value } : row)));
     };
 
     // const formatDate1 = (date: Date) => date.toLocaleDateString();
