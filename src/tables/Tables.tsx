@@ -314,7 +314,6 @@ export const Tables = () => {
                             fontStyle: 'gerade',
                             fontSize: '20px',
                             color: 'blue',
-                            textShadow: '2px 2px 15px red',
                             padding: '0px 10px',
                             width: '95px',
                             height: '90px',
@@ -323,7 +322,7 @@ export const Tables = () => {
                         Note:
                     </div>
                     Zum Editieren einfach in eine Zelle klicken & Text eintragen.<br/>
-                    Diese Website ist ein Geschenk an die Familie Notfall ♥️.
+                    Diese Website ist ein Geschenk an die Familie Notfall ♥️.<br/>
                 </p>
 
 
